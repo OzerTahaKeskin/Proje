@@ -88,7 +88,7 @@
     <div style="width:1000px; margin-left:50px;">
 <div class="mb-3" style="width:430px; float:left;">
   <label for="exampleFormControlInput1" class="form-label">E-posta adresiniz</label>
-    <input type="email" id="TextBox1" placeholder="E-posta adresinizi giriniz." required class="form-control" />
+    <input type="email" id="TextBox1"  placeholder="E-posta adresinizi giriniz." required class="form-control" />
 </div>
 
 
