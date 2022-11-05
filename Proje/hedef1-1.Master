@@ -1,0 +1,158 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="hedef1-1.master.cs" Inherits="Proje.hedef1_1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+<link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg text-light" style=" background-color:#242dde; text-align:center">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.aspx"><img src="foto/logo2.png"  width="75px" height="75px"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="text-align:right; text-align:center;">
+      <ul class="navbar-nav" style="color:white;">
+        <li class="nav-item">
+          <a class="nav-link"  href="#" style="color:white;">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color:white;">S.S.S.</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color:white;">İletişim</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+        
+    <br />
+
+     <div class="container" style="  width:100%; height:100%; margin:auto;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+              
+                
+            </asp:ContentPlaceHolder>
+   </div>
+      <div class="container" style="width:30%; height:100%; float:left; margin-left:3%;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                
+            </asp:ContentPlaceHolder>
+
+        </div>
+    <div class="container"  style="width:67%; height:100%; float:left;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    
+    
+    
+  
+    <div class="mt-4" style="float:left; width:100%;">
+
+  <footer class=" text-center text-lg-start text-white" style=" background:#242dde;">
+ 
+    <div class="container p-4">
+      
+      <div class="row my-4">
+      
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img src="foto/logo.svg.png" height="70" alt=""
+                 loading="lazy" />
+          </div>
+
+          <p class="text-center">Sultanbeyli Belediyesi Kendini Ve Kentini Geliştiren Belediye</p>
+
+          
+
+        </div>
+       
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4  ">&nbsp;&nbsp;&nbsp;FAYDALI LİNKLER</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a target="_blank" href="http://www.sultanbeyli.gov.tr" class="text-white text-decoration-none "><i class="fas fa-paw pe-3"></i>Sultanbeyli İlçe Kaymakamlığı</a>
+            </li>
+            <li class="mb-2">
+              <a target="_blank" href="https://www.ombudsman.gov.tr" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>Kamu Denetçiliği Kurumu</a>
+            </li>
+            <li class="mb-2">
+              <a target="_blank" href="https://sultanbeylidh.saglik.gov.tr" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>Sultanbeyli Devlet Hastanesi</a>
+            </li>
+            <li class="mb-2">
+              <a target="_blank" href="https://multeciler.org.tr" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>Mülteciler Derneği</a>
+            </li>
+            <li class="mb-2">
+              <a  target="_blank" href="https://ufukavrupa.org.tr" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>Ufuk Avrupa</a>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4  ">&nbsp;&nbsp;&nbsp;SOSYAL MEDYA</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a target="_blank" href="https://web.facebook.com/SultanbeyliBel/" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>Facebook</a>
+            </li>
+            <li class="mb-2">
+              <a target="_blank" href="https://twitter.com/sultanbeylibel" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>Twitter</a>
+            </li>
+            <li class="mb-2">
+              <a target="_blank" href="https://www.instagram.com/sultanbeylibel/" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>İnstagram</a>
+            </li>
+          <li class="mb-2">
+              <a target="_blank" href="https://www.youtube.com/user/SultanbeyliBld" class="text-white text-decoration-none"><i class="fas fa-paw pe-3"></i>YouTube</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">İLETİŞİM</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>Bize Ulaşın:<i class="fas fa-map-marker-alt pe-2"></i><br />Abdurrahmangazi Mahallesi Belediye Caddesi No:4</p>
+            </li>
+            <li>
+              <p>Telefon:<i class="fas fa-phone pe-2"></i><br />0216 564 4 564</p>
+            </li>
+            <li>
+              <p><i class="fas fa-envelope pe-2 mb-0"></i></p>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+   
+    </div>
+   
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+     
+      Tüm Haklar Sultanbeyli Belediyesi Adına Saklanmıştır
+    </div>
+    
+  </footer>
+
+</div>
+
+</body>
+</html>
